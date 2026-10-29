@@ -8,23 +8,38 @@
 <body>
     <!--esse link sera um icone de voltar p pagina inicial-->
     <header><a href="inicial.html">Voltar</a></header>
-    <section>
+    
+    <!--caixa esquerda (conteudo), a direita fica o texto-->
+    <div class="layout">
+        <nav id="menu">
             <h2>Estude</h2>
-            <ul>
-                <li><a href="#">Sintaxe básica</a></li>
-                <li><a href="#">Vetores</a></li>
-                <li><a href="#">Strings</a></li>
-                <li><a href="#">Matrizes</a></li>
-                <li><a href="#">Ordenação</a></li>
-                <li><a href="#">Complexidade</a></li>
-                <li><a href="#">Soma de prefixo</a></li>
-                <li><a href="#">Vetor de diferenças</a></li>
-                <li><a href="#">Vetor de frequência</a></li>
-                <li><a href="#">Busca binária</a></li>
-                <li><a href="#">Set, map, pair, tuple</a></li>
-                <li><a href="#">Recursividade</a></li>
-                <li><a href="#">Greedy</a></li>
-            </ul>
-        </section>
+            <button data-id="sintaxe">Sintaxe básica</button>
+            <button data-id="condicionais">Estruturas condicionais</button>
+            <button data-id="loops">Estruturas de controle</button>
+            <button data-id="vetores">Vetores</button>
+            <button data-id="strings">Strings</button>
+            <button data-id="matrizes">Matrizes</button>
+            <button data-id="ordenacao">Ordenação</button>
+            <button data-id="complexidade">Complexidade</button>
+            <button data-id="soma-de-prefixo">Soma de prefixo</button>
+            <button data-id="vetor-de-diferencas">Vetor de diferenças</button>
+            <button data-id="vetor-de-frequencia">Vetor de frequência</button>
+            <button data-id="busca-binaria">Busca binária</button>
+            <button data-id="set-map-pair-tuple">Set, map, pair, tuple</button>
+            <button data-id="recursividade">Recursividade</button>
+            <button data-id="greedy">Greedy</button>
+        </nav>
+
+        <main id="conteudo">
+        <p>Carregando conteúdo...</p>
+    </main>
+
+    </div>
+
+    <!--texto do conteudo-->
+
+
+    <script src="../js/menu.js"></script>
+
 </body>
 </html>
